@@ -192,7 +192,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="px-6 py-3 border border-white/20 rounded-full font-medium backdrop-blur-sm transition-all duration-300 relative group"
             >
-              <span className="relative z-10"> <a href="https://drive.google.com/file/d/1dNxylPiRyVfTrYeGOgkabyd9EAMGXneF/view?usp=sharing" target='_blank' rel="noopener noreferrer">My Resume</a></span>
+              <span className="relative z-10"> <a href="https://drive.google.com/file/d/1rMWk7JSkbVu7rWkcCQ8PYsDX5XWVfRlh/view?usp=sharing" target='_blank' rel="noopener noreferrer">My Resume</a></span>
               <motion.div
                 className="absolute inset-0 rounded-full bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               />
