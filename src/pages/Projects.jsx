@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FiChevronDown } from 'react-icons/fi';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import lmsProjectPic from '../assets/images/lmsProject.png'
+import BlogAppMern from '../assets/images/blogApp(mern).png'
 import BlogApp from '../assets/images/BlogApp.png'
 import chatApp from '../assets/images/cahtApp.png'
 import WordScrambleGame from '../assets/images/wordScrambleGame.png'
@@ -36,6 +37,15 @@ const Projects = () => {
       link: "https://lmsfrontend-syl6.onrender.com",
       git: "https://github.com/shahanasherin-p/lmsFrontend",
       src: lmsProjectPic,
+      type: "Fullstack"
+    },
+    {
+      title: "Blog App",
+      desc: "Developed a full-stack blog application with an admin panel and social engagement features. Users can create, edit, and publish blog posts, like and comment on posts, and follow other users to curate a personalized feed. The admin panel allows content moderation and user management. Implemented MongoDB for efficient data storage and ensured secure authentication and authorization.",
+      devStack: "MongoDB, Express, React, Node.js",
+      link: "https://blog-app-xi-sand.vercel.app/",
+      git: "https://github.com/shahanasherin-p/blogApp",
+      src: BlogAppMern,
       type: "Fullstack"
     },
     {
